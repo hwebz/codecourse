@@ -1,0 +1,8 @@
+{% extends 'templates/app.twig' %}
+
+{% block main %}
+  <form action="#" method="post" class="upload-form">
+    {{ app.uploadcare.widget.getInputTag('file_id') | raw }}
+    <button type="submit" class="upload-form__button">Upload</button>
+  </form>
+{% endblock %}

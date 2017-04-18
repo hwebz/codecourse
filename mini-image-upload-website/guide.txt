@@ -1,0 +1,6 @@
+Use UploadCare (provice beautiful HTML5 widget, API to manage files and upload files - https://uploadcare.com/) and
+Silex (The PHP micro-framework based on the Symfony Components - http://silex.sensiolabs.org/)
+
+Install Twig: composer require twig/twig
+Install Dbal: composer require doctrine/dbal
+Install UploadCare: composer require uploadcare/uploadcare-php
